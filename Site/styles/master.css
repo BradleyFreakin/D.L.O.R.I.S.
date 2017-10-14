@@ -1,0 +1,177 @@
+@import url('fonts.css');
+
+html {
+	background:black;
+}
+
+body {
+	text-align: center;
+	margin:0;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	color:#DDD;
+	font-family: "Electrolize", "Arial", sans-serif;
+	font-size: 14pt;
+}
+
+::selection {
+	background:#00ccff;
+	color:#DDD;
+}
+::-moz-selection {
+	background:#00ccff;
+	color:#DDD;
+}
+
+
+.main {
+	position: relative;
+	z-index: 1;
+	padding:0 6%;
+	text-align:left;
+	background:#0A0A0A;
+	box-shadow: 0 0 20px black,
+				inset 0 0 20px black,
+				inset 0 15px 40px -15px #cc00ff
+	;
+	border-top: 8px solid #cc00ff;
+	border-bottom: 8px solid #cc00ff;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Aldrich', 'Verdana', sans-serif;
+	color:#2d2d2d;
+	font-weight: normal;
+	text-shadow:0.05em 0.05em 0.1em rgba(0, 0, 0, 0.6),
+				0.03em 0.03em 0.4em rgba(0,0,0,0.8)
+	;
+}
+h1 {
+	font-size: 75.757pt;
+}
+/* ^v perfect fourth */
+h2 {
+	font-size: 56.832pt;
+	font-family: 'Wire One', 'Verdana', sans-serif;
+}
+/* ^v perfect fourth x2 */
+h3 {
+	font-size: 31.984pt;
+}
+/* ^v perfect fourth */
+h4, h5, h6 {
+	font-size: 18pt;
+}
+
+p {
+	font-family: 'Cormorant Garamond', 'Times New Roman', serif;
+	font-size: 16pt;
+	margin-top: 3rem;
+	margin-right: 3%;
+}
+
+q, blockquote {
+	font-family: 'Wire One', 'Arial', sans-serif;
+}
+
+
+img {
+	margin:2em;
+}
+
+
+a {
+	position: relative;
+	z-index: 1;
+	margin:1em;
+	color:inherit;
+	text-decoration: none;
+	border-bottom:2px solid;
+	border-bottom-color: #CC0099;
+	transition: border-bottom-color 200ms;
+}
+a:hover {
+	border-bottom-color: #eee;
+}
+a:before, a:after {
+	content: '';
+	position: absolute;
+	top:0; right:0; bottom:-2px; left:0;
+	z-index: 0;
+}
+a:before {
+	border-bottom:1px solid rgba(253, 83, 210, 0.75);
+	transition: bottom 200ms;
+}
+a:hover:before {
+	bottom:-4px;
+}
+a:after {
+	border-bottom:1px solid rgba(204, 0, 153, 0.5);
+	transition: bottom 300ms;
+}
+a:hover:after {
+	bottom:-6px;
+}
+
+a.nounderline {
+	display: inline-block;
+	border:none;
+	transition: color 200ms;
+}
+a.nounderline:hover {
+	color: #7f7f7f;
+}
+a.nounderline:before, a.nounderline:after {
+	display:none;
+}
+
+.links-social svg {
+	height:1.618rem;
+	width:1.618rem;
+}
+.links-social a .svg_base {
+	fill:white;
+	transition: fill 200ms;
+}
+.links-social a:hover .svg_base {
+	fill:#7f7f7f;
+}
+
+
+
+.layer-bg {
+	position: absolute;
+	top:0; right:0; bottom:0; left:0;
+	z-index: -1;
+}
+
+
+.spacer {
+	height: 2em;
+}
+
+
+.flex-space {
+	display: flex;
+	justify-content: space-around;
+}
+.flex-distribute {
+	display: flex;
+	justify-content: space-between;
+}
+
+
+
+.float-bottom {
+	position: absolute;
+	right:0; bottom:0; left:0;
+	margin:5% 0;
+}
+
+
+.hidden {
+	visibility: hidden !important;
+	opacity: 0 !important;
+}

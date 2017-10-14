@@ -1,0 +1,245 @@
+<svg id="think" class="mainSVG" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3176.23 3223.73">
+  <defs>
+    <style>
+      #think .line, #think .endline {
+        fill: none;
+        stroke-miterlimit: 10;
+      }
+
+      #think .line {
+        stroke-width: 20px;
+        stroke-dasharray:3800px;
+        stroke-dashoffset:3800px;
+      }
+
+      #think .circle {
+        opacity:0;
+      }
+
+      #think .endline {
+        stroke-linecap: round;
+        stroke-width: 10px;
+      }
+      #think__topend .endline {
+        stroke-dasharray:100px;
+        stroke-dashoffset:-100px;
+      }
+      #think__botend .endline {
+        stroke-dasharray:100px;
+        stroke-dashoffset:100px;
+      }
+    </style>
+  </defs>
+  <title>think</title>
+  <g id="think__paths">
+    <polyline class="line" points="56.12 80.37 56.12 286.37 259.12 489.37 259.12 898.37 56.12 1102.37 56.12 1306.37 260.12 1511.37 260.12 1919.37"/>
+    <polyline class="line" points="56.12 80.37 56.12 286.37 259.12 489.37 259.12 898.37 463.12 1102.37 464.12 1306.37 667.12 1511.37 667.12 1715.37 260.12 2124.37 259.12 2328.37 55.12 2532.37 55.12 3145.37"/>
+    <polyline class="line" points="56.12 80.37 56.12 286.37 259.12 489.37 259.12 898.37 463.12 1102.37 464.12 1306.37 667.12 1511.37 667.12 1715.37 260.12 2124.37 259.12 2328.37 464.12 2532.37 463.12 2737.37 260.12 2941.37 260.12 3145.37"/>
+    <line class="line" x1="260.12" y1="80.37" x2="260.12" y2="286.37"/>
+    <line class="line" x1="464.12" y1="80.37" x2="464.12" y2="489.37"/>
+    <polyline class="line" points="668.12 80.37 668.12 489.37 464.12 693.37 464.12 898.37"/>
+    <line class="line" x1="668.12" y1="80.37" x2="669.12" y2="1306.37"/>
+    <polyline class="line" points="874.12 79.37 1077.12 285.37 1077.12 693.37 874.12 898.37 873.12 1102.37 1077.12 1306.37 873.12 1511.37 873.12 1715.37 1077.12 1919.37 1077.12 2124.37 873.12 2328.37 873.12 2532.37 463.12 2941.37 463.12 3145.37"/>
+    <polyline class="line" points="874.12 78.37 1077.12 285.37 1077.12 693.37 874.12 898.37 873.12 1102.37 1077.12 1307.37 873.12 1511.37 873.12 1715.37 1077.12 1919.37 1077.12 2124.37 873.12 2328.37 873.12 2532.37 669.12 2736.37 669.12 3145.37"/>
+    <polyline class="line" points="874.12 78.37 1077.12 285.37 1077.12 693.37 874.12 898.37 873.12 1102.37 1077.12 1307.37 873.12 1511.37 873.12 1715.37 1077.12 1919.37 1077.12 2124.37 873.12 2328.37 873.12 2532.37 1077.62 2736.87 1077.12 3145.37"/>
+    <polyline class="line" points="874.12 78.37 1077.12 285.37 1077.12 693.37 874.12 898.37 873.12 1102.37 1283.12 1512.37 1283.12 1817.37"/>
+    <line class="line" x1="1282.12" y1="79.37" x2="1282.12" y2="286.37"/>
+    <polyline class="line" points="1485.12 79.37 1485.12 285.37 1281.62 488.87 1281.62 693.37 1076.87 898.12 1076.87 1102.37"/>
+    <polyline class="line" points="1690.12 79.37 1690.12 285.37 1894.12 489.37 1894.12 693.37 1690.62 896.87 1690.62 1306.37 1485.37 1511.62 1486.12 2326.37 1281.12 2532.37 1281.12 3145.37"/>
+    <polyline class="line" points="1690.12 79.37 1690.12 285.37 1894.12 489.37 1894.12 693.37 2098.12 897.37 2098.12 1102.37 1894.12 1307.37 1894.12 1511.37 2099.12 1715.37 1894.12 1920.37 1894.12 2124.37 1689.62 2328.87 1689.62 2532.37 1485.37 2736.62 1485.37 3145.37"/>
+    <polyline class="line" points="1690.12 79.37 1690.12 285.37 1894.12 489.37 1894.12 693.37 2099.12 898.37 2098.12 1102.37 1894.12 1307.37 1894.12 1511.37 2099.12 1715.37 1894.12 1920.37 1894.12 2124.37 1689.12 2328.37 1689.12 2532.37 1894.12 2737.37 1894.12 3145.37"/>
+    <polyline class="line" points="1690.12 78.37 1690.12 285.37 1894.12 489.37 1894.12 693.37 2098.62 897.87 2098.62 1102.37 1893.87 1307.12 1893.87 1511.37 2302.99 1920.49 2302.99 2124.37"/>
+    <polyline class="line" points="2099.12 80.37 2099.12 489.37 2303.12 693.37 2303.12 898.37 2303.12 1102.37 2098.12 1307.37 2098.12 1511.37"/>
+    <polyline class="line" points="2099.12 80.37 2099.12 489.37 2303.12 693.37 2303.12 1102.37 2507.12 1306.37 2507.12 1715.37 2506.12 2124.37 2303.12 2327.37 2303.12 2532.37 2098.12 2737.37 2098.12 2941.37"/>
+    <polyline class="line" points="2099.12 80.37 2099.12 489.37 2303.12 693.37 2303.12 1102.37 2507.12 1306.37 2506.12 2124.37 2303.12 2327.37 2303.12 2532.37 2507.62 2736.87 2507.62 2940.37 2301.87 3146.12"/>
+    <line class="line" x1="2303.12" y1="80.37" x2="2303.12" y2="489.37"/>
+    <polyline class="line" points="2712.12 80.37 2712.12 284.37 2507.12 489.37 2507.12 693.37"/>
+    <line class="line" x1="2916.12" y1="80.37" x2="2916.12" y2="284.37"/>
+    <polyline class="line" points="3120.12 79.37 3120.12 285.37 2711.12 694.37 2711.12 1000.37"/>
+    <polyline class="line" points="3120.12 81.37 3120.12 285.37 2916.12 489.37 3119.62 692.87 3119.62 898.37 2915.37 1102.62 2915.37 1306.37 2711.24 1510.49 2711.24 1715.37 2916.18 1920.31 2916.18 2124.37 2711.65 2328.9 2711.65 2532.37"/>
+    <polyline class="line" points="3120.12 81.37 3120.12 285.37 2916.12 489.37 3119.12 692.37 3119.12 898.37 2915.12 1102.37 2915.12 1511.37 3119.12 1715.37 3119.12 2124.37 2916.12 2327.37 2916.12 2634.37 2711.12 2839.37 2711.12 3145.37"/>
+    <polyline class="line" points="3120.12 81.37 3120.12 285.37 2916.12 489.37 3119.12 692.37 3119.12 898.37 2915.12 1102.37 2915.12 1511.37 3119.12 1715.37 3119.12 2124.37 2916.12 2327.37 2916.12 2634.37 3119.12 2837.37 3119.12 3145.37"/>
+  </g>
+  <g id="think__ellipses">
+    <circle class="circle" cx="260.12" cy="1919.37" r="51"/>
+    <circle class="circle" cx="669.12" cy="1306.37" r="51"/>
+    <circle class="circle" cx="464.12" cy="898.37" r="51"/>
+    <circle class="circle" cx="464.12" cy="489.37" r="51"/>
+    <circle class="circle" cx="260.12" cy="284.37" r="51"/>
+    <circle class="circle" cx="1281.12" cy="284.37" r="51"/>
+    <circle class="circle" cx="1077.12" cy="1102.37" r="51"/>
+    <circle class="circle" cx="2303.12" cy="489.37" r="51"/>
+    <circle class="circle" cx="2917.12" cy="293.37" r="51"/>
+    <circle class="circle" cx="2712.12" cy="1000.37" r="51"/>
+    <circle class="circle" cx="2507.12" cy="693.37" r="51"/>
+    <circle class="circle" cx="2099.12" cy="1511.37" r="51"/>
+    <circle class="circle" cx="1281.12" cy="1817.37" r="51"/>
+    <circle class="circle" cx="2302.12" cy="2124.37" r="51"/>
+    <circle class="circle" cx="2711.12" cy="2532.37" r="51"/>
+    <circle class="circle" cx="2099.12" cy="2941.37" r="51"/>
+  </g>
+  <g id="think__botend">
+    <g id="_5a" data-name="5a">
+      <polyline class="endline" points="56.12 3144.37 56.12 3167.62 5 3218.73"/>
+      <polyline class="endline" points="56.12 3144.37 56.12 3167.62 107.23 3218.73"/>
+    </g>
+    <g id="_5b" data-name="5b">
+      <polyline class="endline" points="260.12 3144.37 260.12 3167.62 209 3218.73"/>
+      <polyline class="endline" points="260.12 3144.37 260.12 3167.62 311.23 3218.73"/>
+    </g>
+    <g id="_5c" data-name="5c">
+      <polyline class="endline" points="464.12 3144.37 464.12 3167.62 413 3218.73"/>
+      <polyline class="endline" points="464.12 3144.37 464.12 3167.62 515.23 3218.73"/>
+    </g>
+    <g id="_5d" data-name="5d">
+      <polyline class="endline" points="668.12 3144.37 668.12 3167.62 617 3218.73"/>
+      <polyline class="endline" points="668.12 3144.37 668.12 3167.62 719.23 3218.73"/>
+    </g>
+    <g id="_5e" data-name="5e">
+      <polyline class="endline" points="874.12 3144.37 874.12 3167.62 823 3218.73"/>
+      <polyline class="endline" points="874.12 3144.37 874.12 3167.62 925.23 3218.73"/>
+    </g>
+    <g id="_5f" data-name="5f">
+      <polyline class="endline" points="1077.12 3144.37 1077.12 3167.62 1026 3218.73"/>
+      <polyline class="endline" points="1077.12 3144.37 1077.12 3167.62 1128.23 3218.73"/>
+    </g>
+    <g id="_5g" data-name="5g">
+      <polyline class="endline" points="1282.12 3144.37 1282.12 3167.62 1231 3218.73"/>
+      <polyline class="endline" points="1282.12 3144.37 1282.12 3167.62 1333.23 3218.73"/>
+    </g>
+    <g id="_5h" data-name="5h">
+      <polyline class="endline" points="1486.12 3144.37 1486.12 3167.62 1435 3218.73"/>
+      <polyline class="endline" points="1486.12 3144.37 1486.12 3167.62 1537.23 3218.73"/>
+    </g>
+    <g id="_5p" data-name="5p">
+      <polyline class="endline" points="3120.12 3144.37 3120.12 3167.62 3171.23 3218.73"/>
+      <polyline class="endline" points="3120.12 3144.37 3120.12 3167.62 3069 3218.73"/>
+    </g>
+    <g id="_5o" data-name="5o">
+      <polyline class="endline" points="2916.12 3144.37 2916.12 3167.62 2967.23 3218.73"/>
+      <polyline class="endline" points="2916.12 3144.37 2916.12 3167.62 2865 3218.73"/>
+    </g>
+    <g id="_5n" data-name="5n">
+      <polyline class="endline" points="2712.12 3144.37 2712.12 3167.62 2763.23 3218.73"/>
+      <polyline class="endline" points="2712.12 3144.37 2712.12 3167.62 2661 3218.73"/>
+    </g>
+    <g id="_5m" data-name="5m">
+      <polyline class="endline" points="2508.12 3144.37 2508.12 3167.62 2559.23 3218.73"/>
+      <polyline class="endline" points="2508.12 3144.37 2508.12 3167.62 2457 3218.73"/>
+    </g>
+    <g id="_5l" data-name="5l">
+      <polyline class="endline" points="2302.12 3144.37 2302.12 3167.62 2353.23 3218.73"/>
+      <polyline class="endline" points="2302.12 3144.37 2302.12 3167.62 2251 3218.73"/>
+    </g>
+    <g id="_5k" data-name="5k">
+      <polyline class="endline" points="2099.12 3144.37 2099.12 3167.62 2150.23 3218.73"/>
+      <polyline class="endline" points="2099.12 3144.37 2099.12 3167.62 2048 3218.73"/>
+    </g>
+    <g id="_5j" data-name="5j">
+      <polyline class="endline" points="1894.12 3144.37 1894.12 3167.62 1945.23 3218.73"/>
+      <polyline class="endline" points="1894.12 3144.37 1894.12 3167.62 1843 3218.73"/>
+    </g>
+    <g id="_5i" data-name="5i">
+      <polyline class="endline" points="1690.12 3144.37 1690.12 3167.62 1741.23 3218.73"/>
+      <polyline class="endline" points="1690.12 3144.37 1690.12 3167.62 1639 3218.73"/>
+    </g>
+    <circle class="circle" cx="56.62" cy="3144.87" r="20.5"/>
+    <circle class="circle" cx="259.62" cy="3144.87" r="20.5"/>
+    <circle class="circle" cx="464.62" cy="3144.87" r="20.5"/>
+    <circle class="circle" cx="667.62" cy="3144.87" r="20.5"/>
+    <circle class="circle" cx="874.62" cy="3144.87" r="20.5"/>
+    <circle class="circle" cx="1077.62" cy="3144.87" r="20.5"/>
+    <circle class="circle" cx="1282.62" cy="3144.87" r="20.5"/>
+    <circle class="circle" cx="1485.62" cy="3144.87" r="20.5"/>
+    <circle class="circle" cx="1690.62" cy="3144.87" r="20.5"/>
+    <circle class="circle" cx="1893.62" cy="3144.87" r="20.5"/>
+    <circle class="circle" cx="2098.62" cy="3144.87" r="20.5"/>
+    <circle class="circle" cx="2301.62" cy="3144.87" r="20.5"/>
+    <circle class="circle" cx="2508.62" cy="3144.87" r="20.5"/>
+    <circle class="circle" cx="2711.62" cy="3144.87" r="20.5"/>
+    <circle class="circle" cx="2916.62" cy="3144.87" r="20.5"/>
+    <circle class="circle" cx="3119.62" cy="3144.87" r="20.5"/>
+  </g>
+  <g id="think__topend">
+    <g id="_5a-2" data-name="5a">
+      <polyline class="endline" points="56.12 79.37 56.12 56.12 5 5"/>
+      <polyline class="endline" points="56.12 79.37 56.12 56.12 107.23 5"/>
+    </g>
+    <g id="_5b-2" data-name="5b">
+      <polyline class="endline" points="260.12 79.37 260.12 56.12 209 5"/>
+      <polyline class="endline" points="260.12 79.37 260.12 56.12 311.23 5"/>
+    </g>
+    <g id="_5c-2" data-name="5c">
+      <polyline class="endline" points="464.12 79.37 464.12 56.12 413 5"/>
+      <polyline class="endline" points="464.12 79.37 464.12 56.12 515.23 5"/>
+    </g>
+    <g id="_5d-2" data-name="5d">
+      <polyline class="endline" points="668.12 79.37 668.12 56.12 617 5"/>
+      <polyline class="endline" points="668.12 79.37 668.12 56.12 719.23 5"/>
+    </g>
+    <g id="_5e-2" data-name="5e">
+      <polyline class="endline" points="874.12 79.37 874.12 56.12 823 5"/>
+      <polyline class="endline" points="874.12 79.37 874.12 56.12 925.23 5"/>
+    </g>
+    <g id="_5f-2" data-name="5f">
+      <polyline class="endline" points="1077.12 79.37 1077.12 56.12 1026 5"/>
+      <polyline class="endline" points="1077.12 79.37 1077.12 56.12 1128.23 5"/>
+    </g>
+    <g id="_5g-2" data-name="5g">
+      <polyline class="endline" points="1282.12 79.37 1282.12 56.12 1231 5"/>
+      <polyline class="endline" points="1282.12 79.37 1282.12 56.12 1333.23 5"/>
+    </g>
+    <g id="_5h-2" data-name="5h">
+      <polyline class="endline" points="1486.12 79.37 1486.12 56.12 1435 5"/>
+      <polyline class="endline" points="1486.12 79.37 1486.12 56.12 1537.23 5"/>
+    </g>
+    <g id="_5p-2" data-name="5p">
+      <polyline class="endline" points="3120.12 79.37 3120.12 56.12 3171.23 5"/>
+      <polyline class="endline" points="3120.12 79.37 3120.12 56.12 3069 5"/>
+    </g>
+    <g id="_5o-2" data-name="5o">
+      <polyline class="endline" points="2916.12 79.37 2916.12 56.12 2967.23 5"/>
+      <polyline class="endline" points="2916.12 79.37 2916.12 56.12 2865 5"/>
+    </g>
+    <g id="_5n-2" data-name="5n">
+      <polyline class="endline" points="2712.12 79.37 2712.12 56.12 2763.23 5"/>
+      <polyline class="endline" points="2712.12 79.37 2712.12 56.12 2661 5"/>
+    </g>
+    <g id="_5m-2" data-name="5m">
+      <polyline class="endline" points="2508.12 79.37 2508.12 56.12 2559.23 5"/>
+      <polyline class="endline" points="2508.12 79.37 2508.12 56.12 2457 5"/>
+    </g>
+    <g id="_5l-2" data-name="5l">
+      <polyline class="endline" points="2302.12 79.37 2302.12 56.12 2353.23 5"/>
+      <polyline class="endline" points="2302.12 79.37 2302.12 56.12 2251 5"/>
+    </g>
+    <g id="_5k-2" data-name="5k">
+      <polyline class="endline" points="2099.12 79.37 2099.12 56.12 2150.23 5"/>
+      <polyline class="endline" points="2099.12 79.37 2099.12 56.12 2048 5"/>
+    </g>
+    <g id="_5j-2" data-name="5j">
+      <polyline class="endline" points="1894.12 79.37 1894.12 56.12 1945.23 5"/>
+      <polyline class="endline" points="1894.12 79.37 1894.12 56.12 1843 5"/>
+    </g>
+    <g id="_5i-2" data-name="5i">
+      <polyline class="endline" points="1690.12 79.37 1690.12 56.12 1741.23 5"/>
+      <polyline class="endline" points="1690.12 79.37 1690.12 56.12 1639 5"/>
+    </g>
+    <circle class="circle" cx="56.62" cy="78.87" r="20.5"/>
+    <circle class="circle" cx="259.62" cy="78.87" r="20.5"/>
+    <circle class="circle" cx="464.62" cy="78.87" r="20.5"/>
+    <circle class="circle" cx="667.62" cy="78.87" r="20.5"/>
+    <circle class="circle" cx="874.62" cy="78.87" r="20.5"/>
+    <circle class="circle" cx="1077.62" cy="78.87" r="20.5"/>
+    <circle class="circle" cx="1282.62" cy="78.87" r="20.5"/>
+    <circle class="circle" cx="1485.62" cy="78.87" r="20.5"/>
+    <circle class="circle" cx="1690.62" cy="78.87" r="20.5"/>
+    <circle class="circle" cx="1893.62" cy="78.87" r="20.5"/>
+    <circle class="circle" cx="2098.62" cy="78.87" r="20.5"/>
+    <circle class="circle" cx="2301.62" cy="78.87" r="20.5"/>
+    <circle class="circle" cx="2508.62" cy="78.87" r="20.5"/>
+    <circle class="circle" cx="2711.62" cy="78.87" r="20.5"/>
+    <circle class="circle" cx="2916.62" cy="78.87" r="20.5"/>
+    <circle class="circle" cx="3119.62" cy="78.87" r="20.5"/>
+  </g>
+</svg>

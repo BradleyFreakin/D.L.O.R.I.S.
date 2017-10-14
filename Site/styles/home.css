@@ -1,0 +1,77 @@
+.landing {
+	position: relative;
+	/*background: gray;*/
+	height: 100vh;
+	transform: translateY(0);
+	will-change:transform;
+}
+
+.l_bgRepeat, .l_graydient {
+	position: absolute;
+	top:0; right:0; bottom:0; left:0;
+}
+
+.l_bgRepeat {
+	background: url("../assets/bg_repeat.png") repeat;
+	background-size: 96px 96px;
+}
+
+.l_graydient {
+	background-image:linear-gradient(to bottom, transparent, #111 100%);
+}
+.l_graydient:before {
+	content: '';
+	position: absolute;
+	top:0; right:0; bottom:0; left:0;
+	z-index: -1;
+	background:black;
+}
+
+
+.landing .mainSVG {
+	position: absolute;
+	top:10px; left:50%;
+	transform: translateX(-50%);
+	height:95%;
+	width:auto;
+}
+
+
+@keyframes svg_perspective_out {
+	from {
+		height:300%;
+	}
+}
+@-webkit-keyframes svg_perspective_out {
+	from {
+		height:300%;
+	}
+}
+
+
+
+.hero-title {
+	margin:0.4em 0 0 0;
+	color:inherit;
+	font-size: 111pt;
+	font-variant: small-caps;
+	letter-spacing: 7pt;
+	text-shadow:20px 20px 30px rgba(0,0,0,0.4),
+				0 0 25px rgba(0,0,0,0.8);
+	transform: translateY(0);
+	will-change:transform;
+}
+.hero-desc {
+	font-family: 'Cormorant Garamond', 'Times New Roman', serif;
+	color:inherit;
+	font-size: 18pt;
+	text-shadow:10px 5px 15px black,
+				0 0 5px black;
+}
+
+
+.hero-title, .hero-desc, #l_links-top, #l_links-bottom {
+	visibility: visible;
+	opacity: 1;
+	transition: opacity 1200ms;
+}

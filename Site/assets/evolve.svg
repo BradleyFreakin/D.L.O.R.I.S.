@@ -1,0 +1,146 @@
+<svg id="evol" class="mainSVG" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3176.23 2787.37">
+  <defs>
+    <style>
+      #evol .line, .topline {
+        fill: none;
+        stroke-miterlimit: 10;
+      }
+
+      #evol .line {
+        stroke-width: 20px;
+        stroke-dasharray:2700px;
+        stroke-dashoffset:2700px;
+      }
+
+      .topline {
+        stroke-linecap: round;
+        stroke-width: 10px;
+        stroke-dasharray:100px;
+        stroke-dashoffset:-100px;
+      }
+      
+      #evol .circle {
+        opacity:0;
+      }
+    </style>
+  </defs>
+  <title>Evol</title>
+  <g id="evol__paths">
+    <line class="line" x1="56.12" y1="78.37" x2="56.12" y2="692.37"/>
+    <polyline class="line" points="260.12 79.37 260.12 284.37 464.12 488.37 464.12 692.37 669.12 897.37 669.12 1101.37 875.12 1307.37 875.12 1714.37"/>
+    <polyline class="line" points="464.12 79.37 464.12 284.37 668.62 488.87 668.62 692.37"/>
+    <line class="line" x1="668.12" y1="79.37" x2="668.12" y2="284.37"/>
+    <polyline class="line" points="873.12 79.37 873.12 692.37 1077.62 896.87 1077.62 1305.37 1281.87 1509.62 1281.87 1918.37"/>
+    <polyline class="line" points="1077.12 79.37 1077.12 488.37 1283.12 694.37 1283.12 1101.37"/>
+    <line class="line" x1="1282.12" y1="79.37" x2="1282.12" y2="488.37"/>
+    <line class="line" x1="1485.12" y1="78.37" x2="1485.12" y2="2327.37"/>
+    <line class="line" x1="1690.12" y1="79.37" x2="1690.12" y2="2736.37"/>
+    <polyline class="line" points="3120.12 79.37 3120.12 283.37 2915.12 488.37 2915.12 692.37 2711.12 896.37 2711.12 1100.37 2507.12 1304.37 2507.12 1510.37"/>
+    <line class="line" x1="2916.12" y1="79.37" x2="2916.12" y2="284.37"/>
+    <line class="line" x1="2711.12" y1="79.37" x2="2711.12" y2="488.37"/>
+    <line class="line" x1="2508.12" y1="79.37" x2="2508.12" y2="488.37"/>
+    <polyline class="line" points="2303.12 79.37 2303.12 488.37 2509.12 694.37 2509.12 896.37 2098.62 1306.87 2098.62 1714.37"/>
+    <polyline class="line" points="2099.12 79.37 2099.12 897.37 1894.12 1102.37 1894.12 1510.37"/>
+    <line class="line" x1="1893.12" y1="78.37" x2="1893.12" y2="692.37"/>
+  </g>
+  <g id="evol__circles">
+    <circle class="circle" cx="2917.12" cy="284.37" r="51"/>
+    <circle class="circle" cx="2712.12" cy="488.37" r="51"/>
+    <circle class="circle" cx="2507.12" cy="488.37" r="51"/>
+    <circle class="circle" cx="2509.12" cy="1510.37" r="51"/>
+    <circle class="circle" cx="2098.12" cy="1714.37" r="51"/>
+    <circle class="circle" cx="1894.12" cy="1510.37" r="51"/>
+    <circle class="circle" cx="1894.12" cy="692.37" r="51"/>
+    <circle class="circle" cx="1282.12" cy="488.37" r="51"/>
+    <circle class="circle" cx="1282.12" cy="1101.37" r="51"/>
+    <circle class="circle" cx="669.12" cy="692.37" r="51"/>
+    <circle class="circle" cx="667.12" cy="283.37" r="51"/>
+    <circle class="circle" cx="56.12" cy="692.37" r="51"/>
+    <circle class="circle" cx="875.12" cy="1714.37" r="51"/>
+    <circle class="circle" cx="1283.12" cy="1918.37" r="51"/>
+    <circle class="circle" cx="1485.12" cy="2327.37" r="51"/>
+    <circle class="circle" cx="1690.12" cy="2736.37" r="51"/>
+  </g>
+  <g id="evol__topend">
+    <g id="_5a" data-name="5a">
+      <polyline class="topline" points="56.12 79.37 56.12 56.12 5 5"/>
+      <polyline class="topline" points="56.12 79.37 56.12 56.12 107.23 5"/>
+    </g>
+    <g id="_5b" data-name="5b">
+      <polyline class="topline" points="260.12 79.37 260.12 56.12 209 5"/>
+      <polyline class="topline" points="260.12 79.37 260.12 56.12 311.23 5"/>
+    </g>
+    <g id="_5c" data-name="5c">
+      <polyline class="topline" points="464.12 79.37 464.12 56.12 413 5"/>
+      <polyline class="topline" points="464.12 79.37 464.12 56.12 515.23 5"/>
+    </g>
+    <g id="_5d" data-name="5d">
+      <polyline class="topline" points="668.12 79.37 668.12 56.12 617 5"/>
+      <polyline class="topline" points="668.12 79.37 668.12 56.12 719.23 5"/>
+    </g>
+    <g id="_5e" data-name="5e">
+      <polyline class="topline" points="874.12 79.37 874.12 56.12 823 5"/>
+      <polyline class="topline" points="874.12 79.37 874.12 56.12 925.23 5"/>
+    </g>
+    <g id="_5f" data-name="5f">
+      <polyline class="topline" points="1077.12 79.37 1077.12 56.12 1026 5"/>
+      <polyline class="topline" points="1077.12 79.37 1077.12 56.12 1128.23 5"/>
+    </g>
+    <g id="_5g" data-name="5g">
+      <polyline class="topline" points="1282.12 79.37 1282.12 56.12 1231 5"/>
+      <polyline class="topline" points="1282.12 79.37 1282.12 56.12 1333.23 5"/>
+    </g>
+    <g id="_5h" data-name="5h">
+      <polyline class="topline" points="1486.12 79.37 1486.12 56.12 1435 5"/>
+      <polyline class="topline" points="1486.12 79.37 1486.12 56.12 1537.23 5"/>
+    </g>
+    <g id="_5p" data-name="5p">
+      <polyline class="topline" points="3120.12 79.37 3120.12 56.12 3171.23 5"/>
+      <polyline class="topline" points="3120.12 79.37 3120.12 56.12 3069 5"/>
+    </g>
+    <g id="_5o" data-name="5o">
+      <polyline class="topline" points="2916.12 79.37 2916.12 56.12 2967.23 5"/>
+      <polyline class="topline" points="2916.12 79.37 2916.12 56.12 2865 5"/>
+    </g>
+    <g id="_5n" data-name="5n">
+      <polyline class="topline" points="2712.12 79.37 2712.12 56.12 2763.23 5"/>
+      <polyline class="topline" points="2712.12 79.37 2712.12 56.12 2661 5"/>
+    </g>
+    <g id="_5m" data-name="5m">
+      <polyline class="topline" points="2508.12 79.37 2508.12 56.12 2559.23 5"/>
+      <polyline class="topline" points="2508.12 79.37 2508.12 56.12 2457 5"/>
+    </g>
+    <g id="_5l" data-name="5l">
+      <polyline class="topline" points="2302.12 79.37 2302.12 56.12 2353.23 5"/>
+      <polyline class="topline" points="2302.12 79.37 2302.12 56.12 2251 5"/>
+    </g>
+    <g id="_5k" data-name="5k">
+      <polyline class="topline" points="2099.12 79.37 2099.12 56.12 2150.23 5"/>
+      <polyline class="topline" points="2099.12 79.37 2099.12 56.12 2048 5"/>
+    </g>
+    <g id="_5j" data-name="5j">
+      <polyline class="topline" points="1894.12 79.37 1894.12 56.12 1945.23 5"/>
+      <polyline class="topline" points="1894.12 79.37 1894.12 56.12 1843 5"/>
+    </g>
+    <g id="_5i" data-name="5i">
+      <polyline class="topline" points="1690.12 79.37 1690.12 56.12 1741.23 5"/>
+      <polyline class="topline" points="1690.12 79.37 1690.12 56.12 1639 5"/>
+    </g>
+    <circle class="circle" cx="56.62" cy="78.87" r="20.5"/>
+    <circle class="circle" cx="259.62" cy="78.87" r="20.5"/>
+    <circle class="circle" cx="464.62" cy="78.87" r="20.5"/>
+    <circle class="circle" cx="667.62" cy="78.87" r="20.5"/>
+    <circle class="circle" cx="874.62" cy="78.87" r="20.5"/>
+    <circle class="circle" cx="1077.62" cy="78.87" r="20.5"/>
+    <circle class="circle" cx="1282.62" cy="78.87" r="20.5"/>
+    <circle class="circle" cx="1485.62" cy="78.87" r="20.5"/>
+    <circle class="circle" cx="1690.62" cy="78.87" r="20.5"/>
+    <circle class="circle" cx="1893.62" cy="78.87" r="20.5"/>
+    <circle class="circle" cx="2098.62" cy="78.87" r="20.5"/>
+    <circle class="circle" cx="2301.62" cy="78.87" r="20.5"/>
+    <circle class="circle" cx="2508.62" cy="79.87" r="20.5"/>
+    <circle class="circle" cx="2711.62" cy="79.87" r="20.5"/>
+    <circle class="circle" cx="2916.62" cy="79.87" r="20.5"/>
+    <circle class="circle" cx="3119.62" cy="79.87" r="20.5"/>
+  </g>
+</svg>

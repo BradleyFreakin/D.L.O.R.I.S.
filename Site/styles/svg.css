@@ -1,0 +1,139 @@
+
+.circle {
+    stroke:transparent;
+    stroke-width:10px;
+    fill:#333;
+}
+
+polyline, line {
+	stroke:#222;
+}
+
+
+@keyframes stroke_fromLight {
+	from {
+		/*stroke:#ccc;*/
+		stroke:#ff00ff;
+	}
+}
+@keyframes strokeOffset_toZero {
+	to {
+		stroke-dashoffset:0;
+	}
+}
+@keyframes appear {
+	to {
+		opacity:1;
+	}
+}
+@keyframes purple_blip {
+	from {
+		fill:#ff00ff;
+	}
+}
+
+
+.row-drawIN polyline {
+	animation-name		:strokeOffset_toZero, stroke_fromLight;
+	animation-fill-mode	:both;
+	animation-direction :normal;
+}
+.row-drawOUT polyline {
+	animation-name		:strokeOffset_toZero;
+	animation-fill-mode	:both;
+	animation-direction :reverse;
+}
+
+.row-drawIN circle {
+	animation-name		:appear, purple_blip;
+	animation-duration	:200ms, 600ms;
+	animation-fill-mode	:both;
+	animation-direction	:normal;
+}
+.row-drawOUT circle {
+	animation-name		:appear;
+	animation-duration	:400ms;
+	animation-fill-mode	:both;
+	animation-direction	:reverse;
+}
+
+
+.evol_drawIN .circle, .evol_drawOUT .circle,
+.think_drawIN .circle, .think_drawOUT .circle {
+	animation-fill-mode:both;
+}
+
+
+.evol_drawIN .topline {
+	animation:strokeOffset_toZero 200ms ease-in both;
+}
+.evol_drawIN .line {
+	animation-name:strokeOffset_toZero, stroke_fromLight;
+	animation-delay:200ms;
+	animation-timing-function:ease-out;
+	animation-fill-mode:both;
+}
+.evol_drawIN .circle {
+	animation-name:appear, purple_blip;
+	animation-duration:200ms, 600ms;
+	animation-direction:normal;
+}
+
+
+.evol_drawOUT .topline {
+	animation-name:strokeOffset_toZero;
+	animation-duration:200ms;
+	animation-timing-function:ease-out;
+	animation-fill-mode:both;
+	animation-direction:reverse;
+}
+.evol_drawOUT .line {
+	animation-name:strokeOffset_toZero;
+	animation-timing-function:ease-in;
+	animation-fill-mode:both;
+	animation-direction:reverse;
+}
+.evol_drawOUT .circle {
+	animation-name:appear;
+	animation-duration:200ms;
+	animation-direction:reverse;
+}
+
+
+.think_drawIN .line {
+	animation-name:strokeOffset_toZero, stroke_fromLight;
+	animation-delay:200ms;
+	animation-timing-function:ease-out;
+	animation-fill-mode:both;
+}
+.think_drawIN .endline {
+	animation:strokeOffset_toZero 200ms ease-in both;
+}
+.think_drawIN .circle {
+	animation-name:appear, purple_blip;
+	animation-duration:200ms, 600ms;
+	animation-direction:normal;
+}
+
+.think_drawOUT .line {
+	animation-name:strokeOffset_toZero;
+	animation-delay:200ms;
+	animation-timing-function:ease-in;
+	animation-fill-mode:both;
+	animation-direction:reverse;
+}
+.think_drawOUT .circle {
+	animation-name:appear;
+	animation-duration:200ms;
+	animation-direction:reverse;
+}
+.think_drawOUT #think__topend .endline,
+.think_drawOUT #think__botend .endline {
+	animation:strokeOffset_toZero 200ms both reverse;
+}
+.think_drawOUT #think__botend .endline {
+	animation-timing-function:ease-in;
+}
+.think_drawOUT #think__topend .endline {
+	animation-timing-function:ease-out;
+}
