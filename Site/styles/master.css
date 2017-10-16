@@ -27,7 +27,7 @@ body {
 .main {
 	position: relative;
 	z-index: 1;
-	padding:0 6%;
+	padding:0 8%;
 	text-align:left;
 	background:#0A0A0A;
 	box-shadow: 0 0 20px black,
@@ -41,7 +41,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Aldrich', 'Verdana', sans-serif;
-	color:#2d2d2d;
+	color:#333232;
 	font-weight: normal;
 	text-shadow:0.05em 0.05em 0.1em rgba(0, 0, 0, 0.6),
 				0.03em 0.03em 0.4em rgba(0,0,0,0.8)
@@ -67,6 +67,7 @@ h4, h5, h6 {
 p {
 	font-family: 'Cormorant Garamond', 'Times New Roman', serif;
 	font-size: 16pt;
+	line-height: 140%;
 	margin-top: 3rem;
 	margin-right: 3%;
 }
@@ -76,10 +77,17 @@ q, blockquote {
 }
 
 
-img {
-	margin:2em;
+.img-float-left {
+	float:left;
+	margin:0 2em 2em 0;
 }
-
+.img-float-right {
+	float:right;
+	margin:0 0 2em 2em;
+}
+.dummyimg {
+	border:2px solid gray;
+}
 
 a {
 	position: relative;
@@ -92,9 +100,10 @@ a {
 	transition: border-bottom-color 200ms;
 }
 a:hover {
-	border-bottom-color: #eee;
+	/*border-bottom-color: #eee;*/
+	border-bottom-color: #00ccff;
 }
-a:before, a:after {
+/*a:before, a:after {
 	content: '';
 	position: absolute;
 	top:0; right:0; bottom:-2px; left:0;
@@ -113,7 +122,7 @@ a:after {
 }
 a:hover:after {
 	bottom:-6px;
-}
+}*/
 
 a.nounderline {
 	display: inline-block;

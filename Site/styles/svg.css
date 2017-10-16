@@ -12,7 +12,6 @@ polyline, line {
 
 @keyframes stroke_fromLight {
 	from {
-		/*stroke:#ccc;*/
 		stroke:#ff00ff;
 	}
 }
